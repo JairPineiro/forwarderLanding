@@ -1,0 +1,455 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+h2 {
+    color: #0d1eb6;
+}
+p {
+    font-size: 14px;
+    color: #9f9f9f;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+header{
+    background-image: url('images/forwarder-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.header-info {
+    width: 40vw;
+}
+
+.form-container {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    width: 10vw;
+}
+
+nav img {
+    width: 100%;
+}
+
+.phone-contact {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.phone-contact h4 {
+    margin-left: 10px;
+}
+
+h1, .header-info h3{
+    padding-right: 120px;
+}
+
+.form-container{
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: -70px;
+}
+
+.form-container h4 {
+    color: #b1b5b3;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.names input {
+    width: 45%;
+}
+
+form input, form select {
+    margin: 8px;
+    padding: 10px 0 10px 10px;
+    border-radius: 3px;
+    border: solid 0.5px #9f9f9f;
+
+}
+
+form button{
+    text-transform: uppercase;
+    background-color:#378dd8 ;
+    color: #fff;
+    padding: 10px 0 10px 10px;
+    border: solid 0.5px #9f9f9f;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.content-1 {
+    text-transform: capitalize;
+    background-color: #f1f3f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-1 h2 {
+    text-align: center;
+    color: #0d1eb6;
+    padding: 130px 0 70px;
+    width: 35vw;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    flex-basis: 25%;
+    background-color: #fff;
+    margin: 15px 15px 80px;
+    padding: 50px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 50px;
+    color: #0d1eb6;
+}
+
+.content-2 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.map-img-container{
+    width: 40vw;
+}
+
+.map-img-container img {
+    width: 100%;
+}
+
+.book-shipments-container {
+    width: 28vw;
+    margin-right: 50px;
+}
+
+.book-shipments-container button {
+    background-color:#378dd8 ;
+    color: #fff;
+    padding: 15px 70px;
+    border: solid 0.5px #9f9f9f;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f3f2 ;
+    padding: 50px 0;
+}
+
+.costumer-container {
+    display: flex;
+}
+
+.comment-container {
+    width: 40vw;
+}
+
+.face-img-container {
+    width: 25vw;
+}
+
+.face-img-container img {
+    width: 85%;
+    border-radius: 100%;
+}
+
+.comment-container p {
+    font-size: 23px;
+}
+
+.comment-container h4, .comment-container h6 {
+    margin: 5px 0;
+}
+
+.comment-container h6 span {
+    color: #378dd8;
+}
+
+.comment-container h6 span:hover {
+    cursor: pointer;
+}
+
+.contact-container {
+    background-color: #062199;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-card {
+    width: 20vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.contact-card h4 {
+    padding-top: 18px;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.contact-card h3 {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.rights-reserved {
+    text-align: center;
+    background-color: #001386;
+    height: 50px;
+    display: flex;
+
+}
+
+.rights-reserved p {
+    margin: auto;
+    text-transform: capitalize;
+    color:#6cacf1;
+}
+
+@media(max-width: 912px){
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .logo-container {
+        width: 20vw;
+    }
+
+    h1, .header-info h3{
+        padding-right: 0px;
+    }
+
+    .form-container h4 {
+        padding: 0 15px;
+    }
+
+    .content-1 h2 {
+        padding: 80px 0 10px;
+        width: 40vw;
+    }
+
+    .cards-container {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    
+    .card {
+        flex-basis: 35%;
+        margin: 10px 15px 20px;
+    }
+
+    .content-2 {
+        align-items: center;
+        padding: 50px;
+    }
+
+    .book-shipments-container button {
+        margin-top: 0; 
+        margin-bottom: 0;
+        padding: 10px 30px;
+    }
+
+    .map-img-container {
+        width: 35vw;
+    }
+
+    .content-3 {
+        padding: 25px 0
+    }
+
+    .costumer-container {
+        align-items: center;
+    }
+
+    .face-img-container {
+        width: 18vw;
+    }
+
+    .comment-container p {
+        font-size: 13px;
+    }
+
+    .comment-container h4 {
+        font-size: 12px;
+    }
+
+    .contact-card {
+        height: 150px;
+    }
+
+    .contact-card h4 {
+        margin: 2px 0 5px;
+        font-size: 14px;
+    }
+
+    .contact-card h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 15px;
+    }
+    
+    p {
+        font-size: 10px;
+    }
+   
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-container {
+        width: 30vw;
+    }
+
+    .header-info {
+        width: 75vw;
+    }
+
+    .form-container {
+        width: 80vw;
+        margin-top: 15px;
+    } 
+    
+    .content-1 h2 {
+        width: 60vw;
+        padding-bottom: 0;
+    }
+
+    .card {
+        flex-basis: 55%;
+        padding-top: 30px;
+    }
+
+    .card h3 {
+        margin: 25px 0 10px;
+        font-size: 16px;
+    }
+
+    .card p {
+        margin-top: 0;
+        padding: 0px 10px;
+    }
+
+    .content-2{
+        padding: 25px;
+    }
+
+    .book-shipments-container {
+        width: 40vw;
+        margin-right: 0px;
+    }
+
+    .map-img-container {
+        width: 35vw;
+    }
+
+    .book-shipments-container button {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    .face-img-container {
+        width: 25vw;
+    }
+
+    .comment-container {
+        width: 45vw;
+    }
+
+    .comment-container p {
+        font-size: 10px;
+    }
+
+    .comment-container h4, .comment-container h6 {
+        font-size: 9px;
+    }
+
+    .contact-container {
+        flex-wrap: wrap;
+    }
+    .contact-card {
+        height: 150px;
+        flex-basis: 55vw;
+    }
+
+    .contact-card h4 {
+        margin: 2px 0 5px;
+        font-size: 14px;
+    }
+
+    .contact-card h3 {
+        font-size: 21px;
+    }
+
+    .rights-reserved p {
+        font-size: 8px;
+    }
+}
